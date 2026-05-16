@@ -1,7 +1,7 @@
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=KeybinSanchez/MSFPractica4)
 
 <div align="justify">
-# Proyecto Final: Sistema tegumentario
+## Proyecto Final: Sistema tegumentario
 
 ## Información de la estudiante
 
