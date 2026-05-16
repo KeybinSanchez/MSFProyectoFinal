@@ -1,5 +1,6 @@
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=KeybinSanchez/MSFPractica4)
 
+<div align="justify">
 # Proyecto Final: Sistema tegumentario
 
 ## Información de la estudiante
@@ -69,3 +70,4 @@ Sistema tegumentario; Circuito RLC; Controlador PID; Modelo biomecánico; Simula
 
 \[4] M. C. Khoo, Physiological Control Systems Analysis Simulation, and Estimation, 2nd ed. Piscataway, New Jersey, USA: IEEE Press, 2018, Section 2, Page 26.
 
+</div>
