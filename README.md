@@ -1,6 +1,6 @@
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=KeybinSanchez/MSFPractica4)
 
-# Práctica 4: Sistema endócrino
+# Proyecto Final: Sistema tegumentario
 
 ## Información de la estudiante
 
@@ -24,7 +24,7 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 
 ## Objetivos
 
-1. Calcular la función de transferencia del modelo biomecánico del sistema endócrino representado mediante un circuito RLC de segundo orden.
+1. Calcular la función de transferencia del modelo biomecánico del sistema tegumentario representado mediante un circuito RLC de segundo orden.
 2. Determinar el modelo de ecuaciones integro-diferenciales.
 3. Calcular el error en estado estacionario y la estabilidad del sistema.
 4. Emular y simular la respuesta del circuito en Simulink/Simscape.
@@ -32,18 +32,21 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 6. Obtener la respuesta en lazo abierto y en lazo cerrado con el controlador PID en Spyder/Python.
 7. Elaborar el diagrama del sistema.
 
-## Descripción detallada del sistema
+## Sistema Tegumentario: Modelo RLC
 
-El sistema endocrino regula diversas funciones fisiológicas mediante la secreción y transporte de hormonas a través del torrente sanguíneo, las cuales actúan sobre órganos diana para generar respuestas específicas. Esta dinámica puede modelarse de forma simplificada mediante un circuito eléctrico de segundo orden tipo RLC, representando los procesos de secreción, transporte y respuesta hormonal bajo las siguientes consideraciones:
+Este proyecto modela el sistema tegumentario mediante una analogía con un circuito RLC, enfocándose en la regulación térmica de la piel ante un estímulo externo. El sistema tegumentario está formado por la piel, anexos cutáneos, vasos sanguíneos superficiales, glándulas sudoríparas y tejido subcutáneo.
 
-1. La secreción hormonal desde una glándula (como el hipotálamo o la hipófisis) se modela como una fuente de entrada Ve(t), que representa un estímulo inicial al sistema, como una señal homeostática o neural.
-2. El proceso de transporte y difusión de las hormonas en el torrente sanguíneo se representa mediante una resistencia R1, asociada a las pérdidas y retardos en la señal hormonal durante su desplazamiento.
-3. El almacenamiento temporal o acumulación de hormonas en tejidos o compartimentos intermedios se modela mediante un capacitor C, el cual describe la capacidad del sistema para regular la disponibilidad hormonal en el tiempo.
-4. La respuesta del órgano diana (como la tiroides o las glándulas suprarrenales) se representa mediante una segunda rama que incluye una resistencia R2 y una inductancia L, donde R2 modela la resistencia al cambio en la concentración hormonal y L representa la inercia o retardo en la respuesta biológica.
-5. Se identifican dos variables principales en el sistema: el flujo de secreción hormonal Fe(t) y la respuesta del sistema en el órgano diana Fs(t), análogas a las variables de entrada y salida del circuito eléctrico.
+La piel participa en el intercambio de calor a través de la epidermis, dermis, microcirculación cutánea y tejido subcutáneo. En condiciones normales, regula la pérdida o ganancia de calor mediante su función de barrera y sus mecanismos vasculares. Sin embargo, en una lesión como una quemadura de segundo grado, parte de la epidermis y la dermis se dañan, alterando la resistencia superficial, la capacidad de almacenamiento térmico y la respuesta vascular local.
+
+## Descripción del modelo
+Para representar el sistema tegumentario se utiliza un circuito RLC, donde el comportamiento térmico y vascular de la piel se compara con el comportamiento eléctrico del circuito. La fuente de voltaje Ve(t) representa el estímulo térmico externo, como un cambio brusco de temperatura o el contacto con una superficie caliente. El flujo de calor se relaciona con la corriente eléctrica del circuito.
+
+El resistor R1 representa la resistencia superficial de la piel, asociada principalmente con la epidermis y el estrato córneo, los cuales actúan como una barrera ante el paso del calor. El capacitor C representa la capacidad de almacenamiento térmico de la dermis y del tejido cutáneo, es decir, la capacidad de absorber y liberar calor de forma gradual. El resistor R2 representa la resistencia al flujo de calor hacia capas más profundas, incluyendo el tejido subcutáneo y el intercambio térmico con la microcirculación sanguínea. Finalmente, el inductor L representa el retardo fisiológico de la respuesta vascular cutánea.
+
+La salida del sistema Vs(t) se toma en el nodo asociado al inductor L, por lo que representa la respuesta transitoria de la microcirculación ante un estímulo térmico externo.
 
 ## Palabras clave
-Sistema endócrino; Circuito RLC; Controlador PID; Modelo biomecánico; Simulaciones numéricas, EID, Función de transferencia.
+Sistema tegumentario; Circuito RLC; Controlador PID; Modelo biomecánico; Simulaciones numéricas; EID; Función de transferencia; Regulación térmica; Quemadura de segundo grado; Respuesta vascular cutánea; Transferencia de calor.
 
 ## Lista de archivos incluidos en el repositorio
 
