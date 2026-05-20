@@ -1,0 +1,30 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'Proyecto Final: Sistema Tegumentario'
+message: Modelado de Sistemas Fisiológicos / Ingenieria Biomedica
+type: software
+authors:
+  - given-names: Marco A.
+    family-names: Campoy
+    email: l21212145@tectijuana.edu.mx
+    affiliation: Tecnologico Nacional de Mexico
+  - given-names: Keybin D.
+    family-names: 'Sanchez '
+    email: l23210721@tectijuana.edu.mx
+    affiliation: Tecnologico Nacional de Mexico
+identifiers:
+  - type: url
+    value: >-
+      https://github.com/KeybinSanchez/MSFProyectoFinal/tree/main
+    description: Repositorio Github Proyecto Final
+repository-code: 'https://github.com/KeybinSanchez/MSFProyectoFinal'
+keywords:
+  - Regulacion Termica
+  - Quemadura de segundo grado
+  - Circuito RLC
+  - Piel
+license: BSD-2-Clause
+version: '1.0'
+date-released: '2026-05-19'
