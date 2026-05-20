@@ -40,6 +40,8 @@ Este proyecto modela el sistema tegumentario mediante una analogía con un circu
 
 La piel participa en el intercambio de calor a través de la epidermis, dermis, microcirculación cutánea y tejido subcutáneo. En condiciones normales, regula la pérdida o ganancia de calor mediante su función de barrera y sus mecanismos vasculares. Sin embargo, en una lesión como una quemadura de segundo grado, parte de la epidermis y la dermis se dañan, alterando la resistencia superficial, la capacidad de almacenamiento térmico y la respuesta vascular local.
 
+<img width="510" height="490" alt="Image" src="https://github.com/user-attachments/assets/64c30072-e0d4-44ca-93a4-3e4c9b333e12" />
+
 ## Descripción del modelo
 El circuito RLC del sistema tegumentario se modela con una rama principal y dos ramas secundarias, con el propósito de representar el intercambio térmico y la respuesta fisiológica de la piel ante un estímulo externo. El circuito inicia con una fuente de voltaje de entrada [Ve (t)], la cual proporciona la señal de excitación y representa un estímulo térmico externo, como un cambio brusco de temperatura en el ambiente o el contacto de la piel con una superficie caliente. En la rama principal se conecta el resistor [R1], el cual representa la resistencia superficial de la piel, asociada principalmente al estrato córneo y la epidermis, actuando como barrera al paso del calor hacia las capas internas. 
 
