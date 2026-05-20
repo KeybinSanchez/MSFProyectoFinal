@@ -4,9 +4,9 @@
 
 <div align="justify">
 
-## Información de la estudiante
+## Información de los estudiantes
 
-Sanchez Perez Keybin Daniel \[23210721]; l23210721@tectijuana.edu.mx
+Sanchez Perez Keybin Daniel \[23210721]; l23210721@tectijuana.edu.mx, Campoy Alegria Marco Anytonio \[21212145]; L21212145@tectijuana.edu.mx
 
 Modelado de Sistemas Fisiológicos
 
