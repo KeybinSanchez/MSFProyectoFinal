@@ -100,8 +100,6 @@ $$
 i_2(t)=\frac{\frac{1}{C}\int\left(i_1(t)-i_2(t)\right)dt-L\frac{di_2(t)}{dt}}{R_2}
 $$
 
-La salida del sistema se obtiene a partir del voltaje en el inductor:
-
 $$
 V_s(t)=L\frac{di_2(t)}{dt}
 $$
