@@ -70,7 +70,7 @@ Si la entrada [Ve (t)] se define como una señal de escalón, ésta representa u
 
 Se calculó de forma analítica la función de transferencia, el error en estado estacionario y el modelo de ecuaciones integro-diferenciales. Además, se determinó la estabilidad en lazo abierto para el caso control y el caso patológico.
 
-### Ecuaciones integro-diferenciales del circuito
+### Ecuaciones principales del sistema
 
 Las ecuaciones integro-diferenciales que describen el comportamiento del circuito RLC análogo al sistema tegumentario son:
 
