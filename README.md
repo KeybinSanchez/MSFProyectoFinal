@@ -42,7 +42,7 @@ Este proyecto modela el sistema tegumentario mediante una analogía con un circu
 
 La piel participa en el intercambio de calor a través de la epidermis, dermis, microcirculación cutánea y tejido subcutáneo. En condiciones normales, regula la pérdida o ganancia de calor mediante su función de barrera y sus mecanismos vasculares. Sin embargo, en una lesión como una quemadura de segundo grado, parte de la epidermis y la dermis se dañan, alterando la resistencia superficial, la capacidad de almacenamiento térmico y la respuesta vascular local.
 
-<img width="510" height="490" alt="Image" src="https://github.com/user-attachments/assets/64c30072-e0d4-44ca-93a4-3e4c9b333e12" />
+<img width="510" height="150" alt="Image" src="https://github.com/user-attachments/assets/64c30072-e0d4-44ca-93a4-3e4c9b333e12" />
 
 ## Justificación del sistema
 
