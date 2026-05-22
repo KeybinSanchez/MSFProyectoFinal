@@ -55,8 +55,8 @@ La piel participa en el intercambio de calor a través de la epidermis, dermis, 
 | **C** | **0.1 F** | **0.068 F** | Disminuye porque el tejido lesionado pierde capacidad de almacenar y liberar calor. |
 | **L** | **1 H** | **1.5 H** | Aumenta porque la respuesta vascular se vuelve más lenta o irregular. |
 
-<img width="300" height="300" alt="Image" src="https://github.com/user-attachments/assets/58de1295-83cb-4495-ba89-7ce055d989c4" />
-### Figura 1. Modelo RLC para el Sistema tegumentario
+<img width="350" height="310" alt="Image" src="https://github.com/user-attachments/assets/58de1295-83cb-4495-ba89-7ce055d989c4" />
+Figura 1. Modelo RLC para el Sistema tegumentario
 
 
 
