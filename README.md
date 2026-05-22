@@ -113,24 +113,6 @@ $$
 El error en estado estacionario se define como la diferencia entre la entrada y la salida de un sistema cuando el límite en el tiempo tiende a infinito. Este análisis solo es útil para sistemas estables, por lo que primero se debe determinar la estabilidad del sistema. Para sistemas en lazo abierto, el error en estado estacionario está dado por:
 
 $$
-E(s)=R(s)\left[1-G(s)\right]
-$$
-
-El error en estado estacionario en lazo abierto se calcula como:
-
-$$
-e_{ss}=\lim_{s \to 0} sE(s)
-$$
-
-Sustituyendo \(E(s)\):
-
-$$
-e_{ss}=\lim_{s \to 0}\left[\frac{1}{s}\left(1-G(s)\right)\right]
-$$
-
-Entonces:
-
-$$
 e_{ss}=\lim_{s \to 0}\left[1-G(s)\right]
 $$
 
@@ -138,9 +120,13 @@ $$
 
 **Valores del sistema de control**
 
+<div align="center">
+
 | Condición | R1 | R2 | C | L |
 |---|---:|---:|---:|---:|
 | **Control: piel sana** | 10 Ω | 6.8 Ω | 0.1 F | 1 H |
+
+</div>
 
 Sustituyendo los valores en la función de transferencia:
 
@@ -149,21 +135,10 @@ $$
 \frac{1s}{(0.1)(1)(10)s^2+\left(1+(0.1)(10)(6.8)\right)s+(10+6.8)}
 $$
 
-Simplificando:
-
-$$
-\frac{V_s(s)}{V_e(s)}=
-\frac{s}{s^2+7.8s+16.8}
-$$
-
 Por lo tanto, el error en estado estacionario para el sistema de control es:
 
 $$
 e_{ss}=\lim_{s \to 0}\left(1-\frac{s}{s^2+7.8s+16.8}\right)
-$$
-
-$$
-e_{ss}=1-0
 $$
 
 $$
