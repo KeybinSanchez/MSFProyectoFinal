@@ -222,7 +222,7 @@ $$
 s_2=-3.9-1.2609j
 $$
 
-Por lo tanto, como las raíces \(\lambda_i\) del denominador de la función de transferencia son complejas conjugadas \((\sigma \pm j\omega)\) con parte real negativa \((Re\lambda_i<0)\), entonces el sistema control es **estable en lazo abierto con una respuesta subamortiguada**.
+Por lo tanto, como las raíces $\lambda_i$ del denominador de la función de transferencia son complejas conjugadas $(\sigma \pm j\omega)$ con parte real negativa $(Re\lambda_i < 0)$, entonces el sistema control es **estable en lazo abierto con una respuesta subamortiguada**.
 
 ## Palabras clave
 Sistema tegumentario; Circuito RLC; Controlador PID; Modelo biomecánico; Simulaciones numéricas; EID; Función de transferencia; Regulación térmica; Quemadura de segundo grado; Respuesta vascular cutánea; Transferencia de calor.
