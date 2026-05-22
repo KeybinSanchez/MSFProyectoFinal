@@ -90,7 +90,7 @@ Las ecuaciones integro-diferenciales que describen el comportamiento del circuit
 
 ### Corrientes del sistema
 
-A partir del análisis del circuito RLC, las corrientes de malla se pueden expresar en función del voltaje de entrada, el voltaje del capacitor y la respuesta de salida del sistema.
+A partir del análisis del circuito RLC, las corrientes de malla se pueden expresar de la siguiente manera:
 
 $$
 i_1(t)=\frac{V_e(t)-\frac{1}{C}\int\left(i_1(t)-i_2(t)\right)dt}{R_1}
