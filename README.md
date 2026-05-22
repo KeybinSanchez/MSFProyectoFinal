@@ -172,6 +172,34 @@ $$
 e_{ss}=1
 $$
 
+### Estabilidad del sistema en lazo abierto
+
+Para analizar la estabilidad en lazo abierto se utiliza el denominador de la función de transferencia:
+
+$$
+G(s)=\frac{Ls}{R_1CLs^2+\left(L+R_1R_2C\right)s+\left(R_1+R_2\right)}
+$$
+
+Para determinar la estabilidad se calculan las raíces del denominador usando la fórmula general:
+
+$$
+s=\frac{-b \pm \sqrt{b^2-4ac}}{2a}
+$$
+
+Donde:
+
+$$
+a=R_1CL
+$$
+
+$$
+b=L+R_1R_2C
+$$
+
+$$
+c=R_1+R_2
+$$
+
 ## Palabras clave
 Sistema tegumentario; Circuito RLC; Controlador PID; Modelo biomecánico; Simulaciones numéricas; EID; Función de transferencia; Regulación térmica; Quemadura de segundo grado; Respuesta vascular cutánea; Transferencia de calor.
 
