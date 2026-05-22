@@ -42,8 +42,6 @@ Este proyecto modela el sistema tegumentario mediante una analogía con un circu
 
 La piel participa en el intercambio de calor a través de la epidermis, dermis, microcirculación cutánea y tejido subcutáneo. En condiciones normales, regula la pérdida o ganancia de calor mediante su función de barrera y sus mecanismos vasculares. Sin embargo, en una lesión como una quemadura de segundo grado, parte de la epidermis y la dermis se dañan, alterando la resistencia superficial, la capacidad de almacenamiento térmico y la respuesta vascular local.
 
-<img width="510" height="150" alt="Image" src="https://github.com/user-attachments/assets/64c30072-e0d4-44ca-93a4-3e4c9b333e12" />
-
 ## Justificación del sistema
 
 ### Tabla 1. Parámetros del modelo RLC térmico para piel sana y piel con quemadura de segundo grado
@@ -55,10 +53,11 @@ La piel participa en el intercambio de calor a través de la epidermis, dermis, 
 | **C** | **0.1 F** | **0.068 F** | Disminuye porque el tejido lesionado pierde capacidad de almacenar y liberar calor. |
 | **L** | **1 H** | **1.5 H** | Aumenta porque la respuesta vascular se vuelve más lenta o irregular. |
 
-<img width="1672" height="941" alt="Image" src="https://github.com/user-attachments/assets/b8f6efcf-d8bb-48e1-8879-2708728ea25a" />
-Figura 1. Modelo RLC para el Sistema tegumentario
-
-
+<div align="center">
+<img width="1672" height="941" alt="Modelo RLC para el Sistema Tegumentario" src="https://github.com/user-attachments/assets/b8f6efcf-d8bb-48e1-8879-2708728ea25a" />
+<br>
+<b>Figura 1.</b> Modelo RLC para el sistema tegumentario.
+</div>
 
 ## Descripción del modelo
 El circuito RLC del sistema tegumentario se modela con una rama principal y dos ramas secundarias, con el propósito de representar el intercambio térmico y la respuesta fisiológica de la piel ante un estímulo externo. El circuito inicia con una fuente de voltaje de entrada [Ve (t)], la cual proporciona la señal de excitación y representa un estímulo térmico externo, como un cambio brusco de temperatura en el ambiente o el contacto de la piel con una superficie caliente. En la rama principal se conecta el resistor [R1], el cual representa la resistencia superficial de la piel, asociada principalmente al estrato córneo y la epidermis, actuando como barrera al paso del calor hacia las capas internas. 
