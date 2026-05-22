@@ -206,12 +206,6 @@ $$
 s^2+7.8s+16.8=0
 $$
 
-Sustituyendo en la fórmula general:
-
-$$
-s=\frac{-7.8 \pm \sqrt{(7.8)^2-4(1)(16.8)}}{2(1)}
-$$
-
 Resultados:
 
 $$
