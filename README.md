@@ -78,7 +78,7 @@ Se calculó de forma analítica la función de transferencia, el error en estado
 | **Ec. 2** | $$\frac{1}{C}\int \left(i_1(t)-i_2(t)\right)dt = R_2 i_2(t) + L\frac{di_2(t)}{dt}$$ |
 | **Ec. 3** | $$V_s(t) = L\frac{di_2(t)}{dt}$$ |
 
-### 2.2 Expresión de las corrientes y función de transferencia
+### Expresión de las corrientes
 
 A partir del análisis en el dominio de Laplace, se obtienen las expresiones de las corrientes de malla del sistema:
 
@@ -86,21 +86,21 @@ $$
 I_1(s)=\left[1 + C R_2 s + C L s^2\right]I_2(s)
 $$
 
-**Ecuación 4.** Relación entre la corriente de la malla izquierda y la corriente de la malla derecha.
+Relación entre la corriente de la malla izquierda y la corriente de la malla derecha.
 
 $$
 I_2(s)=\frac{V_s(s)}{Ls}
 $$
 
-**Ecuación 5.** Expresión de la corriente de la malla derecha en función del voltaje de salida.
+Expresión de la corriente de la malla derecha en función del voltaje de salida.
+
+### Función de transferencia
 
 Sustituyendo estas relaciones en el modelo del circuito, se obtiene la función de transferencia del sistema:
 
 $$
 G(s)=\frac{V_s(s)}{V_e(s)}=\frac{Ls}{R_1CLs^2+\left(L+R_1R_2C\right)s+\left(R_1+R_2\right)}
 $$
-
-**Ecuación 6.** Función de transferencia del modelo RLC análogo al sistema tegumentario.
 
 ## Palabras clave
 Sistema tegumentario; Circuito RLC; Controlador PID; Modelo biomecánico; Simulaciones numéricas; EID; Función de transferencia; Regulación térmica; Quemadura de segundo grado; Respuesta vascular cutánea; Transferencia de calor.
