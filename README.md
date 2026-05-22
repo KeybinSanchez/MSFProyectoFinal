@@ -200,6 +200,30 @@ $$
 c=R_1+R_2
 $$
 
+### Estabilidad del sistema en lazo abierto para control
+
+$$
+s^2+7.8s+16.8=0
+$$
+
+Sustituyendo en la fórmula general:
+
+$$
+s=\frac{-7.8 \pm \sqrt{(7.8)^2-4(1)(16.8)}}{2(1)}
+$$
+
+Resultados:
+
+$$
+s_1=-3.9+1.2609j
+$$
+
+$$
+s_2=-3.9-1.2609j
+$$
+
+Por lo tanto, como las raíces \(\lambda_i\) del denominador de la función de transferencia son complejas conjugadas \((\sigma \pm j\omega)\) con parte real negativa \((Re\lambda_i<0)\), entonces el sistema control es **estable en lazo abierto con una respuesta subamortiguada**.
+
 ## Palabras clave
 Sistema tegumentario; Circuito RLC; Controlador PID; Modelo biomecánico; Simulaciones numéricas; EID; Función de transferencia; Regulación térmica; Quemadura de segundo grado; Respuesta vascular cutánea; Transferencia de calor.
 
