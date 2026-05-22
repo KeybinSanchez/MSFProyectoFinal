@@ -45,6 +45,7 @@ La piel participa en el intercambio de calor a través de la epidermis, dermis, 
 <img width="510" height="490" alt="Image" src="https://github.com/user-attachments/assets/64c30072-e0d4-44ca-93a4-3e4c9b333e12" />
 
 ## Justificación del sistema
+
 ### Tabla 1. Parámetros del modelo RLC térmico para piel sana y piel con quemadura de segundo grado
 
 | Componente | Control: piel sana | Caso: quemadura de segundo grado | Interpretación fisiológica |
