@@ -2,6 +2,8 @@
  
 # Proyecto Final: Sistema tegumentario
 
+<img width="1448" height="1086" alt="Image" src="https://github.com/user-attachments/assets/6785a0fd-fc1c-4a83-8aa5-d17ff1af16de" />
+
 <div align="justify">
 
 ## Información de los estudiantes
