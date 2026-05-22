@@ -76,21 +76,15 @@ Las ecuaciones integro-diferenciales que describen el comportamiento del circuit
 
 $$
 V_e(t) = R_1 i_1(t) + \frac{1}{C}\int \left(i_1(t)-i_2(t)\right)dt
-$$
-
-**Ecuación 1**
+$$ **Ecuación 1**
 
 $$
 \frac{1}{C}\int \left(i_1(t)-i_2(t)\right)dt = R_2 i_2(t) + L\frac{di_2(t)}{dt}
-$$
-
-**Ecuación 2**
+$$ **Ecuación 2**
 
 $$
 V_s(t) = L\frac{di_2(t)}{dt}
-$$
-
-**Ecuación 3**
+$$ **Ecuación 3**
 
 | Ecuación | Modelo |
 |---|---|
