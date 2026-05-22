@@ -66,6 +66,18 @@ Si la entrada [Ve (t)] se define como una señal de escalón, ésta representa u
 <b>Figura 1.</b> Modelo RLC para el sistema tegumentario.
 </div>
 
+## Modelo matemático del sistema
+
+**Fase 2:** Se calculó de forma analítica la función de transferencia, el error en estado estacionario y el modelo de ecuaciones integro-diferenciales. Además, se determinó la estabilidad en lazo abierto para el caso control y el caso patológico.
+
+### Ecuaciones integro-diferenciales del circuito
+
+| Ecuación | Modelo |
+|---|---|
+| **Ec. 1** | $$V_e(t) = R_1 i_1(t) + \frac{1}{C}\int \left(i_1(t)-i_2(t)\right)dt$$ |
+| **Ec. 2** | $$\frac{1}{C}\int \left(i_1(t)-i_2(t)\right)dt = R_2 i_2(t) + L\frac{di_2(t)}{dt}$$ |
+| **Ec. 3** | $$V_s(t) = L\frac{di_2(t)}{dt}$$ |
+
 ## Palabras clave
 Sistema tegumentario; Circuito RLC; Controlador PID; Modelo biomecánico; Simulaciones numéricas; EID; Función de transferencia; Regulación térmica; Quemadura de segundo grado; Respuesta vascular cutánea; Transferencia de calor.
 
