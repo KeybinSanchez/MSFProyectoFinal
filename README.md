@@ -86,19 +86,19 @@ Las ecuaciones integro-diferenciales que describen el comportamiento del circuit
 
 ### Expresión de las corrientes
 
-A partir del análisis en el dominio de Laplace, se obtienen las expresiones de las corrientes de malla del sistema:
+### Corrientes del sistema
+
+A partir del modelo del circuito, las corrientes del sistema se expresan como:
 
 $$
-I_1(s)=\left[1 + C R_2 s + C L s^2\right]I_2(s)
+i_1(t)=\frac{V_e(t)-R_2i_2(t)-V_s(t)}{R_1}
 $$
 
-Relación entre la corriente de la malla izquierda y la corriente de la malla derecha.
-
 $$
-I_2(s)=\frac{V_s(s)}{Ls}
+i_2(t)=\frac{1}{L}\int V_s(t)\,dt
 $$
 
-Expresión de la corriente de la malla derecha en función del voltaje de salida.
+Donde \(i_1(t)\) representa la corriente de la malla izquierda asociada a la transferencia térmica superficial, mientras que \(i_2(t)\) representa la corriente de la malla derecha relacionada con la transferencia térmica profunda y la respuesta vascular.
 
 ### Función de transferencia
 
