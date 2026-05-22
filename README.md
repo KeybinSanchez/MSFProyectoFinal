@@ -53,18 +53,18 @@ La piel participa en el intercambio de calor a través de la epidermis, dermis, 
 | **C** | **0.1 F** | **0.068 F** | Disminuye porque el tejido lesionado pierde capacidad de almacenar y liberar calor. |
 | **L** | **1 H** | **1.5 H** | Aumenta porque la respuesta vascular se vuelve más lenta o irregular. |
 
-<div align="center">
-<img width="1672" height="941" alt="Modelo RLC para el Sistema Tegumentario" src="https://github.com/user-attachments/assets/b8f6efcf-d8bb-48e1-8879-2708728ea25a" />
-<br>
-<b>Figura 1.</b> Modelo RLC para el sistema tegumentario.
-</div>
-
 ## Descripción del modelo
 El circuito RLC del sistema tegumentario se modela con una rama principal y dos ramas secundarias, con el propósito de representar el intercambio térmico y la respuesta fisiológica de la piel ante un estímulo externo. El circuito inicia con una fuente de voltaje de entrada [Ve (t)], la cual proporciona la señal de excitación y representa un estímulo térmico externo, como un cambio brusco de temperatura en el ambiente o el contacto de la piel con una superficie caliente. En la rama principal se conecta el resistor [R1], el cual representa la resistencia superficial de la piel, asociada principalmente al estrato córneo y la epidermis, actuando como barrera al paso del calor hacia las capas internas. 
 
 Después de este primer elemento se encuentra un nodo intermedio, del cual parte la primera rama secundaria formada por el capacitor [C], conectado hacia tierra. Este elemento representa la capacidad de almacenamiento térmico de la dermis y del tejido cutáneo, es decir, la capacidad de la piel para absorber y liberar energía térmica de forma gradual. Posteriormente, en la misma rama principal se conecta el resistor [R2], que representa la resistencia al flujo de calor hacia capas más profundas, incluyendo el tejido subcutáneo y el intercambio térmico con la microcirculación sanguínea. Finalmente, en el nodo de salida se conecta la segunda rama secundaria, formada por el inductor [L], también conectado hacia tierra, el cual representa la inercia o retardo fisiológico de la respuesta vascular cutánea. La salida del sistema [Vs (t)] se toma en el nodo asociado al inductor [L], por lo que representa principalmente la respuesta transitoria relacionada con el retardo de la microcirculación ante un estímulo térmico externo. 
 
 Si la entrada [Ve (t)] se define como una señal de escalón, ésta representa una alteración térmica repentina sobre la superficie cutánea. En el caso control, correspondiente a una piel sana, la barrera superficial presenta mayor resistencia, la capacidad de almacenamiento térmico es adecuada y la respuesta vascular ocurre de manera más regulada. En el caso patológico, como una quemadura de segundo grado, la resistencia superficial disminuye debido al daño en la epidermis, la capacidad térmica del tejido se altera y la respuesta vascular presenta un mayor retardo, ocasionando una respuesta distinta en la salida [Vs (t)]. De esta manera, el circuito RLC permite describir el comportamiento dinámico del sistema tegumentario de forma análoga a un sistema eléctrico. 
+
+<div align="center">
+<img width="1672" height="941" alt="Modelo RLC para el Sistema Tegumentario" src="https://github.com/user-attachments/assets/b8f6efcf-d8bb-48e1-8879-2708728ea25a" />
+<br>
+<b>Figura 1.</b> Modelo RLC para el sistema tegumentario.
+</div>
 
 ## Palabras clave
 Sistema tegumentario; Circuito RLC; Controlador PID; Modelo biomecánico; Simulaciones numéricas; EID; Función de transferencia; Regulación térmica; Quemadura de segundo grado; Respuesta vascular cutánea; Transferencia de calor.
