@@ -252,7 +252,7 @@ Sistema tegumentario; Circuito RLC; Controlador PID; Modelo biomecánico; Simula
 5. Imágenes de las simulaciones \[.pdf].
 6. Evidencia del análisis matemático: función de transferencia, modelo de ecuaciones integro-diferenciales, error en estado estacionario y estabilidad en lazo abierto.
 7. Modelo fisiológico en Biorender o BioArt.
-8. Imagen en el osciloscopio. 
+8. Ensayo gráfico. 
 
 ## Referencias
 
