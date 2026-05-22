@@ -264,4 +264,6 @@ Sistema tegumentario; Circuito RLC; Controlador PID; Modelo biomecánico; Simula
 
 \[4] M. C. Khoo, Physiological Control Systems Analysis Simulation, and Estimation, 2nd ed. Piscataway, New Jersey, USA: IEEE Press, 2018, Section 2, Page 26.
 
+\[5] Alzola, R. (2002). Sistema tegumentario.
+
 </div>
