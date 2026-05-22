@@ -98,7 +98,7 @@ $$
 i_2(t)=\frac{1}{L}\int V_s(t)\,dt
 $$
 
-Donde \(i_1(t)\) representa la corriente de la malla izquierda asociada a la transferencia térmica superficial, mientras que \(i_2(t)\) representa la corriente de la malla derecha relacionada con la transferencia térmica profunda y la respuesta vascular.
+Donde $i_1(t)$ representa la corriente de la malla izquierda asociada a la transferencia térmica superficial, mientras que $i_2(t)$ representa la corriente de la malla derecha relacionada con la transferencia térmica profunda y la respuesta vascular.
 
 ### Función de transferencia
 
