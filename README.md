@@ -145,6 +145,33 @@ $$
 e_{ss}=1
 $$
 
+### Error en estado estacionario para el sistema del caso
+
+**Valores del sistema del caso**
+
+<div align="center">
+ 
+| Condición | R1 | R2 | C | L |
+|---|---:|---:|---:|---:|
+| **Caso: quemadura de segundo grado** | 3.3 Ω | 12 Ω | 0.068 F | 1.5 H |
+</div>
+
+Sustituyendo los valores en la función de transferencia:
+
+$$
+G(s)=\frac{1.5s}{(0.068)(1.5)(3.3)s^2+\left(1.5+(0.068)(3.3)(12)\right)s+(3.3+12)}
+$$
+
+Por lo tanto, el error en estado estacionario para el sistema del caso es:
+
+$$
+e_{ss}=\lim_{s \to 0}\left(1-\frac{1.5}{0.3366s^2+4.1928s+15.3}\right)
+$$
+
+$$
+e_{ss}=1
+$$
+
 ## Palabras clave
 Sistema tegumentario; Circuito RLC; Controlador PID; Modelo biomecánico; Simulaciones numéricas; EID; Función de transferencia; Regulación térmica; Quemadura de segundo grado; Respuesta vascular cutánea; Transferencia de calor.
 
