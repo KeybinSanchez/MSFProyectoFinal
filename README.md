@@ -88,14 +88,22 @@ Las ecuaciones integro-diferenciales que describen el comportamiento del circuit
 
 ### Corrientes del sistema
 
-A partir del modelo del circuito, las corrientes del sistema se expresan como:
+### Corrientes del sistema
+
+A partir del análisis del circuito RLC, las corrientes de malla se pueden expresar en función del voltaje de entrada, el voltaje del capacitor y la respuesta de salida del sistema.
 
 $$
-i_1(t)=\frac{V_e(t)-R_2i_2(t)-V_s(t)}{R_1}
+i_1(t)=\frac{V_e(t)-\frac{1}{C}\int\left(i_1(t)-i_2(t)\right)dt}{R_1}
 $$
 
 $$
-i_2(t)=\frac{1}{L}\int V_s(t)\,dt
+i_2(t)=\frac{\frac{1}{C}\int\left(i_1(t)-i_2(t)\right)dt-L\frac{di_2(t)}{dt}}{R_2}
+$$
+
+La salida del sistema se obtiene a partir del voltaje en el inductor:
+
+$$
+V_s(t)=L\frac{di_2(t)}{dt}
 $$
 
 Donde $i_1(t)$ representa la corriente de la malla izquierda asociada a la transferencia térmica superficial, mientras que $i_2(t)$ representa la corriente de la malla derecha relacionada con la transferencia térmica profunda y la respuesta vascular.
