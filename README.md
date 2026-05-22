@@ -74,11 +74,15 @@ Se calculó de forma analítica la función de transferencia, el error en estado
 
 Las ecuaciones integro-diferenciales que describen el comportamiento del circuito RLC análogo al sistema tegumentario son:
 
+<div align="center">
+
 | Ecuación | Modelo |
 |---|---|
 | **Ec. 1** | $$V_e(t) = R_1 i_1(t) + \frac{1}{C}\int \left(i_1(t)-i_2(t)\right)dt$$ |
 | **Ec. 2** | $$\frac{1}{C}\int \left(i_1(t)-i_2(t)\right)dt = R_2 i_2(t) + L\frac{di_2(t)}{dt}$$ |
 | **Ec. 3** | $$V_s(t) = L\frac{di_2(t)}{dt}$$ |
+
+</div>
 
 ### Expresión de las corrientes
 
