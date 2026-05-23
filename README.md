@@ -84,7 +84,7 @@ Las ecuaciones integro-diferenciales que describen el comportamiento del circuit
 
 </div>
 
-### Modelo de ecuaciones integro-diferenciales
+### Modelo de Ecuaciones integro-diferenciales
 
 A partir del análisis del circuito RLC, las corrientes de malla se pueden expresar de la siguiente manera:
 
