@@ -266,6 +266,6 @@ Sistema tegumentario; Circuito RLC; Controlador PID; Modelo biomecánico; Simula
 
 \[4] M. C. Khoo, Physiological Control Systems Analysis Simulation, and Estimation, 2nd ed. Piscataway, New Jersey, USA: IEEE Press, 2018, Section 2, Page 26.
 
-\[5] J. Vélez, Sistema tegumentario: Definición, diagrama y función, Kenhub, 2023. Permalink: https://www.kenhub.com/es/library/anatomia-es/sistema-tegumentario
+\[5] J. Vélez, Sistema tegumentario: Definición, diagrama y función, Kenhub, 2023. Disponible en: https://www.kenhub.com/es/library/anatomia-es/sistema-tegumentario
 
 </div>
